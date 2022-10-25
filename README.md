@@ -12,7 +12,9 @@ Recife - PE - Brasil
 Clone o projeto
 No terminal, mude para o diretório raiz do projeto
 Execute os sequintes comandos:
-<code>composer install</code>
-<code>composer dump-autoload</code>
-<code>npm i</code>
-<code></code>
+<ul style='list-style-type: none'>
+    <li>gere a pasta vendor: <code>composer install</code></li>
+    <li>atualize o autoload.php: <code>composer dump-autoload</code></li>
+    <li>gere a node_modules: <code>npm i</code></li>
+    <li>gere o db.sqlite: <code>vendor/bin/doctrine orm:schema-tool update</code></li>
+</ul>
